@@ -1,1 +1,1 @@
-console.log("My namme is Deepak Tanwar")
+console.log("My namme is Deepak Tanwar and right now i am learning js")
