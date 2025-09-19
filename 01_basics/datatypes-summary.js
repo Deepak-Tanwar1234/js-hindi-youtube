@@ -36,3 +36,30 @@
      console.log(typeof heroes)
      console.log(typeof myObj)
      console.log(typeof myFun)
+
+ // ***********************************************
+
+ /* /Memory types:
+            1.Stack Memory( used to store Permitive data type pnly)
+            2.Heap Memory( used to store non-Permitive data type only)
+ */
+
+   let myYoutubeName="DeepakTanwar"
+   let anotherName=myYoutubeName
+   console.log(anotherName)
+   anotherName="DeepuTanwar"
+   console.log(myYoutubeName)
+
+   let user1={
+         email:"deep@gmail.com",
+         upi:"Deep@yj"
+   }
+
+   let user2=user1
+   console.log(user1.email)
+   console.log(user2.email)
+
+   console.log(user2.email="deepak@gmail.com")
+   console.log(user1.email)
+
+   
