@@ -39,7 +39,7 @@
 
  // ***********************************************
 
- /* /Memory types:
+ /* Memory types:
             1.Stack Memory( used to store Permitive data type pnly)
             2.Heap Memory( used to store non-Permitive data type only)
  */
