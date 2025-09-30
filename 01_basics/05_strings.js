@@ -23,13 +23,16 @@ console.log(gameName.charAt('1'))
 console.log(gameName.indexOf("p"))
 console.log(gameName.substring(0,4))
 console.log(gameName.slice(-3,5))
-console.log(gameName.split(1,4))
+//console.log(gameName.split(1,4))
 
-const newString="  Deepak  "
-console.log(newString.trim())
-console.log(gameName.replace)
+const newString1="  Deepak  "
+console.log(newString1.trim())
 
-const newString ="https://deepak.com/deepak%20tanwar"
+const newString2 ="https://deepak.com/deepak%20tanwar"
+console.log(newString2.replace("%20","--"))
+console.log(newString2.includes('deepak'))
+console.log(gameName.split('p'))
+
 
 
 
