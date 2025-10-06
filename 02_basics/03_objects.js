@@ -35,12 +35,13 @@ console.log(jsUser.email)
 jsUser.email="deepak@microsoft.com"
 console.log(jsUser.email)
 
-jsUser.gretting= function(){
-    console.log("Hello js user")
+
+jsUser.greeting= function() {
+    console.log("Hello js user");
 }
 console.log(jsUser.greeting())
-/*
-jsUser.grettingTwo= function(){
+
+jsUser.greeting2= function(){
     console.log(`Hello js user,${this.name}`)
 }
-console.log(jsUser.greetingTwo())*/
+console.log(jsUser.greeting2())
