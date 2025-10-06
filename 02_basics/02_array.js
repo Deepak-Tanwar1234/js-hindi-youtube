@@ -1,4 +1,4 @@
-const marvel_heroes=["Hulk","Thor","Iron man"]
-const dc_heroes=["Superman","Batman","Aquaman"]
+const marvel_heros=["Hulk","Thor","Iron man"]
+const dc_heros=["Superman","Batman","Aquaman"]
 
-console.log(marvel_heroes.push(dc_heroes))
+console.log(marvel_heros.push(dc_heros))
