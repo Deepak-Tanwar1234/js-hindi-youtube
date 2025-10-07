@@ -61,3 +61,40 @@ console.log(Object.entries(tinderuser2))
 console.log(tinderuser2.hasOwnProperty("location"))
 
 
+//**************** Destructuring of object *****************
+
+const course = {
+     courseName:"JS in hindi",
+     price:"120",
+     courseInstructor:"Deepak Tanwar"
+}
+console.log(course.courseName)
+console.log(course.price)
+console.log(course.courseInstructor)
+
+/* Now there is a problem that we have to write and excute 
+console.log statement every time to access object key every time
+ so to make it easier we use destructring of object .which mentioned
+ below */
+
+ const {courseInstructor:instructor} = course
+ //console.log(courseInstructor)
+ console.log(instructor)
+
+ /* const navbar =({company})=>{
+        
+    }
+
+    navbar(comapny="Deepak") */
+
+ /* JSON-Read about JSON also at the vedios end.and API is used  
+ for doing our work easy and it stored or come inside {} 
+ which is called json and then we pick data feom these JSON file*/
+
+ /*
+ {
+     courseName:"JS in hindi",
+     price:"120",
+     courseInstructor:"Deepak Tanwar"
+ }  
+     */
