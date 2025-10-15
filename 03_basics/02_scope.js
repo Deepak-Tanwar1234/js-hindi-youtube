@@ -25,3 +25,52 @@
  }
 
  console.log("Outer value of ab ",ab)
+
+ //*******************************************************
+
+ /* Nested Scope-function inside a function and in that
+    case we get nasted scope */
+
+    function one(){
+        const username="hitesh"
+          function two(){
+              const website="youtube"
+              console.log(username)
+          }
+      //  console.log(website)
+        two()
+    }
+
+    one()
+
+    if(true){
+         const username="hitesh tanwar"
+          if(username === "hitesh tanwar"){
+              const website="youtube"
+              console.log(username)
+          }
+     //   console.log(website)
+       
+    }
+   // console.log(username)
+
+  /* function add1(num){
+      return num+1
+   }
+   console.log(add1(5))  */
+
+   console.log(add1(5)) 
+   function add1(num){
+      return num+1
+   }
+   
+  /* const add2=function(num){
+        return num+1
+   }  
+   console.log(add2(10)) */
+
+  // console.log(add2(10)) 
+   const add2=function(num){
+        return num+1
+   }  
+   
